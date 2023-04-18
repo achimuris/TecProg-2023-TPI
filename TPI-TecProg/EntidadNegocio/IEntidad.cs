@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Negocio
+namespace EntidadNegocio
 {
-    public class Class1
+    public interface IEntidad
     {
+        int ID { get; set; }
     }
 }
